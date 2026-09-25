@@ -207,8 +207,8 @@ python -m unittest tests/test_detector.py
 | Role | Name | Responsibilities / Contribution |
 | :--- | :--- | :--- |
 | **Lead Developer / AI Engineer** | RANJITHKUMAR (@rk2725q-star) | Full System Architecture, ML Model Pipeline, XAI & Streamlit UI |
-| **Collaborator** | *[Team Member 2]* | Dataset Benchmarking & Analysis |
-| **Collaborator** | *[Team Member 3]* | Testing & Quality Assurance |
+| **Collaborator** | **GOVINDHARAJ S** | Dataset Benchmarking & Analysis |
+| **Collaborator** | **KISHORE R** | Testing & Quality Assurance |
 
 
 ---
