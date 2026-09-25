@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.system_generated/
+Datasets/Fake.csv
+Datasets/True.csv
+Datasets/manual_testing.csv

@@ -1,0 +1,312 @@
+{
+  "model_performance": {
+    "Logistic Regression": {
+      "accuracy": 0.9937,
+      "precision": 0.9912,
+      "recall": 0.9956,
+      "f1_score": 0.9934,
+      "train_time_sec": 0.36,
+      "confusion_matrix": [
+        [
+          4658,
+          38
+        ],
+        [
+          19,
+          4265
+        ]
+      ],
+      "classification_report": {
+        "Misleading": {
+          "precision": 0.9959375668163353,
+          "recall": 0.99190800681431,
+          "f1-score": 0.9939187026565668,
+          "support": 4696.0
+        },
+        "Reliable": {
+          "precision": 0.9911689518940274,
+          "recall": 0.9955648926237162,
+          "f1-score": 0.9933620589262839,
+          "support": 4284.0
+        },
+        "accuracy": 0.993652561247216,
+        "macro avg": {
+          "precision": 0.9935532593551814,
+          "recall": 0.9937364497190131,
+          "f1-score": 0.9936403807914254,
+          "support": 8980.0
+        },
+        "weighted avg": {
+          "precision": 0.9936626507442677,
+          "recall": 0.993652561247216,
+          "f1-score": 0.9936531501242135,
+          "support": 8980.0
+        }
+      }
+    },
+    "Passive Aggressive": {
+      "accuracy": 0.9968,
+      "precision": 0.9956,
+      "recall": 0.9977,
+      "f1_score": 0.9966,
+      "train_time_sec": 0.53,
+      "confusion_matrix": [
+        [
+          4677,
+          19
+        ],
+        [
+          10,
+          4274
+        ]
+      ],
+      "classification_report": {
+        "Misleading": {
+          "precision": 0.9978664390868359,
+          "recall": 0.995954003407155,
+          "f1-score": 0.996909304060535,
+          "support": 4696.0
+        },
+        "Reliable": {
+          "precision": 0.995574190542744,
+          "recall": 0.9976657329598506,
+          "f1-score": 0.9966188644048035,
+          "support": 4284.0
+        },
+        "accuracy": 0.9967706013363029,
+        "macro avg": {
+          "precision": 0.99672031481479,
+          "recall": 0.9968098681835028,
+          "f1-score": 0.9967640842326693,
+          "support": 8980.0
+        },
+        "weighted avg": {
+          "precision": 0.9967728986900776,
+          "recall": 0.9967706013363029,
+          "f1-score": 0.9967707468795602,
+          "support": 8980.0
+        }
+      }
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9639,
+      "precision": 0.9624,
+      "recall": 0.962,
+      "f1_score": 0.9622,
+      "train_time_sec": 0.03,
+      "confusion_matrix": [
+        [
+          4535,
+          161
+        ],
+        [
+          163,
+          4121
+        ]
+      ],
+      "classification_report": {
+        "Misleading": {
+          "precision": 0.9653043848446148,
+          "recall": 0.9657155025553663,
+          "f1-score": 0.9655098999361295,
+          "support": 4696.0
+        },
+        "Reliable": {
+          "precision": 0.9624007473143391,
+          "recall": 0.9619514472455649,
+          "f1-score": 0.9621760448283914,
+          "support": 4284.0
+        },
+        "accuracy": 0.9639198218262807,
+        "macro avg": {
+          "precision": 0.963852566079477,
+          "recall": 0.9638334749004656,
+          "f1-score": 0.9638429723822604,
+          "support": 8980.0
+        },
+        "weighted avg": {
+          "precision": 0.9639191751364076,
+          "recall": 0.9639198218262807,
+          "f1-score": 0.9639194505729279,
+          "support": 8980.0
+        }
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.993,
+      "precision": 0.9893,
+      "recall": 0.996,
+      "f1_score": 0.9927,
+      "train_time_sec": 2.13,
+      "confusion_matrix": [
+        [
+          4650,
+          46
+        ],
+        [
+          17,
+          4267
+        ]
+      ],
+      "classification_report": {
+        "Misleading": {
+          "precision": 0.9963574030426399,
+          "recall": 0.9902044293015332,
+          "f1-score": 0.9932713873758411,
+          "support": 4696.0
+        },
+        "Reliable": {
+          "precision": 0.9893345699049385,
+          "recall": 0.996031746031746,
+          "f1-score": 0.9926718622775387,
+          "support": 4284.0
+        },
+        "accuracy": 0.9929844097995546,
+        "macro avg": {
+          "precision": 0.9928459864737892,
+          "recall": 0.9931180876666397,
+          "f1-score": 0.9929716248266899,
+          "support": 8980.0
+        },
+        "weighted avg": {
+          "precision": 0.993007089327505,
+          "recall": 0.9929844097995546,
+          "f1-score": 0.9929853778523303,
+          "support": 8980.0
+        }
+      }
+    }
+  },
+  "training_metadata": {
+    "total_samples": 44898,
+    "train_samples": 35918,
+    "test_samples": 8980,
+    "feature_count": 25000,
+    "training_duration_sec": 48.44,
+    "timestamp": "2026-09-25 12:27:39"
+  },
+  "top_reliable_indicators": [
+    {
+      "word": "reuters",
+      "weight": 31.6998
+    },
+    {
+      "word": "said",
+      "weight": 15.526
+    },
+    {
+      "word": "washington reuters",
+      "weight": 12.2405
+    },
+    {
+      "word": "president donald",
+      "weight": 6.8349
+    },
+    {
+      "word": "reuters president",
+      "weight": 6.1057
+    },
+    {
+      "word": "washington",
+      "weight": 5.9251
+    },
+    {
+      "word": "wednesday",
+      "weight": 5.9122
+    },
+    {
+      "word": "tuesday",
+      "weight": 5.4657
+    },
+    {
+      "word": "republican",
+      "weight": 5.2221
+    },
+    {
+      "word": "thursday",
+      "weight": 5.1633
+    },
+    {
+      "word": "nov",
+      "weight": 4.7841
+    },
+    {
+      "word": "friday",
+      "weight": 4.6723
+    },
+    {
+      "word": "minister",
+      "weight": 4.3167
+    },
+    {
+      "word": "said statement",
+      "weight": 4.288
+    },
+    {
+      "word": "monday",
+      "weight": 4.0665
+    }
+  ],
+  "top_fake_indicators": [
+    {
+      "word": "read",
+      "weight": -7.1703
+    },
+    {
+      "word": "just",
+      "weight": -6.8156
+    },
+    {
+      "word": "obama",
+      "weight": -6.8085
+    },
+    {
+      "word": "president trump",
+      "weight": -6.5772
+    },
+    {
+      "word": "featured image",
+      "weight": -6.2543
+    },
+    {
+      "word": "image",
+      "weight": -6.2293
+    },
+    {
+      "word": "gop",
+      "weight": -6.1478
+    },
+    {
+      "word": "featured",
+      "weight": -6.1279
+    },
+    {
+      "word": "america",
+      "weight": -5.4102
+    },
+    {
+      "word": "hillary",
+      "weight": -5.2139
+    },
+    {
+      "word": "watch",
+      "weight": -4.9432
+    },
+    {
+      "word": "video",
+      "weight": -4.8528
+    },
+    {
+      "word": "mr",
+      "weight": -4.6781
+    },
+    {
+      "word": "com",
+      "weight": -4.4029
+    },
+    {
+      "word": "sen",
+      "weight": -4.3607
+    }
+  ]
+}
